@@ -30,11 +30,11 @@ Proje, Kaggle üzerinde bulunan **Ship Classification Dataset** kullanılarak ge
 ## 📈 Performans Sonuçları
 Modelin doğrulama seti üzerindeki performansı aşağıdaki dropout oranları için değerlendirilmiştir:  
 
-| Dropout Rate | Validation Accuracy | Test Accuracy |
-|---------------|-------------------|-----------------|
-| 0.4           | 89.11%            | 72.34% 
-| 0.5           | 92.74%            | 73.88%
-| 0.6           | 88.39%            | 72.34% 
+| Dropout Rate | Validation Accuracy | Validation Loss | Test Accuracy | Test Loss |
+|---------------|-------------------|-----------------|-----------------|-----------------|
+| 0.4           | 89.11%            | 0.4210          | 72.34%          | 1.2526 
+| 0.5           | 92.74%            | 0.2977          | 73.88%          | 1.1731 
+| 0.6           | 88.39%            | 0.4303          | 72.34%          | 1.4724 
 
 - En yüksek doğruluk **dropout=0.5** ile elde edilmiştir.  
 - Test seti performansı da yüksek olup, modelin genelleme yeteneğini göstermektedir.  

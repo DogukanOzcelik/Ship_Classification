@@ -1,6 +1,6 @@
 # 🚢 Gemi Sınıflandırma CNN Projesi
 
-Bu proje, **Global AI Hub & Akbank Derin Öğrenme Bootcamp** kapsamında geliştirilmiş olup, gemi türlerini sınıflandırmak için **Convolutional Neural Network (CNN)** modeli kullanmaktadır. Veri ön işleme, veri artırma ve model yorumlanabilirliği teknikleri uygulanmıştır.
+Bu proje, **Global AI Hub & Akbank Derin Öğrenme Bootcamp** kapsamında geliştirilmiş olup, gemi türlerini sınıflandırmak için **Convolutional Neural Network (CNN)** modeli kullanmaktadır.
 
 ---
 

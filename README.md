@@ -46,7 +46,8 @@ Modelin doğrulama seti üzerindeki performansı aşağıdaki dropout oranları 
 ## ⚙️ Teknik Detaylar
 - Model eğitimi sırasında GPU kullanılmıştır.  
 - Eğitim süreci 20 epoch boyunca gerçekleştirilmiş ve en iyi model **EarlyStopping** ile kaydedilmiştir.  
-- Hiperparametreler: learning rate = 0.001, batch size = 64, dropout = 0.5  
+- Hiperparametreler: learning rate = 0.001, batch size = 64, dropout = 0.5
+- Optimizer: Adam (lr=0.001)
 - Model, overfitting’i önlemek için **Dropout** ve **BatchNormalization** kullanmaktadır.  
 - Kod ve notebooklar, proje reproducibility için tüm adımları içerir.
 
